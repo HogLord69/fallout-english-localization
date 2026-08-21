@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# 360 also fixes a meaning error: RU "Da." (yes, confirming) had been rendered "No."
+GAME = "SON"
+R = {
+("acboss.msg","355"):"So they're the masters of this country. Then let them prove they're worth reckoning with! We didn't flee Mexico just to kneel to another petty empire.",
+("acboss.msg","356"):"Solve your problems and you'll think differently. The Brotherhood is capable of a great deal more than that.",
+("acboss.msg","357"):"I speak for the Brotherhood of Steel, and I've already shown you what it can do. They have technology, weapons and reach. You'd do well to keep the order friendly.",
+("acboss.msg","358"):"This order own this land? Then let order show its strength!",
+("acboss.msg","360"):"That's right. It seems you understand your position. I'll tell Paladin Latham you're ready to receive an envoy.",
+("acboss.msg","362"):"Maldita sea! This order is strong.",
+("acboss.msg","400"):"What caught my eye in your survey was the fresh water. I'll send men out. Go with them and show them the place.",
+("acboss.msg","401"):"I am interested in fresh water. You write there is a spring. You show?",
+("acboss.msg","402"):"All right. I'll take your men to the spring.",
+("acboss.msg","403"):"Give me a little time to get ready. I'll be back soon.",
+("acboss.msg","404"):"We found the fresh water. That's one thing off your mind.",
+("acboss.msg","405"):"And no trouble along the way? That's excellent news!",
+("acboss.msg","408"):"Bad news - the spring is held by a tribe of savages, and they're spoiling for a fight. You can't take them.",
+("acboss.msg","409"):"I didn't expect that! There are too few of us, and we've barely any weapons - we can't take that spring from savages.",
+("acboss.msg","411"):"I'm sorry. You'll have to make do with sea water.",
+("acboss.msg","412"):"Let me go back out there. Maybe I can clear them out.",
+("acboss.msg","421"):"Ask Jan. He knows more about those things than anyone.",
+("acboss.msg","422"):"I'll do that. Later.",
+("acboss.msg","423"):"I'll go see him now.",
+("acboss.msg","424"):"The leeches had their lair in a grotto. After a small explosion, nothing's coming out of it.",
+("acboss.msg","425"):"The leeches had their lair in a grotto. I killed every last one of them.",
+("acboss.msg","426"):"Yo-ho-ho! Now we're in your debt, aren't we? Without you we'd have lost a lot of good people. Thank you.",
+("acboss.msg","427"):"Yo-ho-ho! We be in your debt. Gracias!",
+("acboss.msg","1260"):"It seems San Felipe bay has decided to have us after all. We have food and fresh water enough, we can sail out into deep water, and the monsters around us are no longer a threat. All of it thanks to you. Gracias, amiga. We're staying.",
+("acboss.msg","1262"):"Now the bay is our home. Your help save us. We are happy. Many thanks, amiga.",
+("acboss.msg","1425"):"The leeches had their lair in a grotto. I killed every last one of them.",
+}

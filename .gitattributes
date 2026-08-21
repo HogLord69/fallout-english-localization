@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+*.BIO text eol=crlf
+*.bio text eol=crlf
