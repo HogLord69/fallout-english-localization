@@ -1,0 +1,29 @@
+# Never commit game assets or backups of them
+*.dat
+*.DAT
+*.orig
+*.frm
+*.FRM
+*.fr[0-5]
+*.FR[0-5]
+*.gcd
+*.GCD
+*.exe
+*.dll
+*.dmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Installer bookkeeping left in a game folder, never in the repo
+.falloutloc-manifest.json

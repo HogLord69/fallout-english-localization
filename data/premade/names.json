@@ -1,0 +1,13 @@
+{
+  "NEV": {
+    "COMBAT.GCD": "Slash",
+    "DIPLOMAT.GCD": "Casta",
+    "STEALTH.GCD": "Morgan"
+  },
+  "SON": {
+    "COMBAT.GCD": "Chavez",
+    "DIPLOMAT.GCD": "Ricardo",
+    "SCIENCE.GCD": "Ramon",
+    "STEALTH.GCD": "Salma"
+  }
+}

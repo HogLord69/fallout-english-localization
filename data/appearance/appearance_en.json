@@ -1,0 +1,212 @@
+{
+ "NEV": {
+  "HFR00S00.dat": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A white woman, one of the fairer half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Bob",
+    "101": "You wear your black hair in a bob, like half the women in the Vault - it suits any face and flatters just about everyone. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HFR00S01.dat": {
+   "appstyle.msg": {
+    "100": "Blonde Curls",
+    "101": "Your silky fair hair has always been the most talked-about in the Vault. Some say blondes are stupid - you disagree. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HFR00S02.dat": {
+   "appstyle.msg": {
+    "100": "Red Ponytail",
+    "101": "Some say red hair means you have no soul. But when you look this good, who needs one? The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HFR00S03.dat": {
+   "appstyle.msg": {
+    "100": "Mohawk",
+    "101": "Your bright green mohawk says everything anyone needs to know about your temperament. Plenty of people in the Vault dislike you. You could not care less. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HMR00S00.dat": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A white man, one of the stronger half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Short Cut",
+    "101": "Plain short hair. Nothing about you stands out, and you have no patience for fashion or any of that nonsense. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HMR00S01.dat": {
+   "appstyle.msg": {
+    "100": "Layered",
+    "101": "You have magnificent long hair. Half the Vault would kill for a mane like that - the women especially. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HMR00S02.dat": {
+   "appstyle.msg": {
+    "100": "Shaved Bald",
+    "101": "Bald, you look hard enough that most of the Vault gives you room - the Overseer included. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HMR01S00.dat": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A black man, one of the stronger half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Dreadlocks",
+    "101": "Your long black hair looks like it has not seen water in months. Then again, it might just be the style. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "HMR01S01.dat": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A black man, one of the stronger half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Crew Cut",
+    "101": "A short, no-frills cut. At the very least, nobody is going to grab you by the hair. The clothing synthesizer glitched and you ended up with jumpsuit number 13."
+   }
+  },
+  "appearance.dat": {
+   "appiface.msg": {
+    "100": "Race",
+    "101": "Style",
+    "102": "Done"
+   },
+   "appracepm.msg": {
+    "100": "Human",
+    "101": "Humans, inhabitants of the planet Earth, survivors of the Great War of 2077. Many took shelter in the vaults, but most remained on the surface to face the aftermath of the nuclear catastrophe.",
+    "200": "Mutant",
+    "201": "Super mutants arose from radioactive contamination and exposure to the FEV virus, developed before the Great War to accelerate regeneration and remake human DNA.",
+    "300": "Ghoul",
+    "301": "Walking dead who once had human form. Heavy radiation exposure changed their flesh, but left their minds intact.",
+    "400": "Brahmin",
+    "401": "Domesticated two-headed cattle with eight stomachs. Widely used as pack animals for hauling cargo, and as a source of meat.",
+    "500": "Robot",
+    "501": "Mechanical beings built before the Great War to handle household chores and security work.",
+    "600": "Dog",
+    "601": "Man's four-legged friends, who survived the nuclear catastrophe with their loyalty and courage intact.",
+    "700": "Deathclaw",
+    "701": "Terrifying monsters, spawn of the atomic fire. They stand around six meters tall, and the teeth in their shark-like jaws can be the size of a human arm."
+   },
+   "appstylepm.msg": {
+    "10": "Style",
+    "100": "Savage",
+    "101": "A stocky warrior with a bone through his nose. His appearance reflects years of survival in the post-apocalyptic wastes.",
+    "11": "Standard style.",
+    "110": "Trader",
+    "111": "",
+    "120": "Cyborg",
+    "121": "A cybernetic dog, half metal and half living flesh."
+   }
+  }
+ },
+ "RES": {
+  "Appearance.dat": {
+   "appiface.msg": {
+    "100": "Race",
+    "101": "Style",
+    "102": "Close"
+   },
+   "appracepm.msg": {
+    "100": "Human",
+    "101": "Humans, inhabitants of the planet Earth who survived the Great War of 2077. Many of them sheltered in vaults, but the greater part remained on the surface, facing the consequences of the nuclear catastrophe.",
+    "200": "Mutant",
+    "201": "Super mutants arose as a result of radioactive contamination and exposure to the FEV virus, developed before the Great War to enhance regeneration and modernise the DNA of the human organism.",
+    "300": "Ghoul",
+    "301": "Walking dead who once had human form. After heavy exposure to radiation their flesh changed, but the organism did not lose its reason.",
+    "400": "Brahmin",
+    "401": "Domesticated mutated two-headed cattle with eight stomachs. Often used as pack animals for hauling cargo, and also as a source of protein.",
+    "500": "Robot",
+    "501": "Mechanical beings created before the Great War to perform various household tasks and security functions.",
+    "600": "Dog",
+    "601": "Man's four-legged friends, who survived the nuclear catastrophe but kept their loyalty and courage.",
+    "700": "Deathclaw",
+    "701": "Terrifying monsters - spawn of the atomic flame. They stand around six metres tall, and the teeth in their shark-like jaws can be the size of a human arm."
+   },
+   "appstylepm.msg": {
+    "10": "Style",
+    "100": "Savage",
+    "101": "A stocky warrior with a bone through his nose. His appearance reflects years of survival in the post-apocalyptic wastes.",
+    "11": "Standard style.",
+    "110": "Trader",
+    "111": "",
+    "120": "Cyborg",
+    "121": "A cybernetic canine organism, made half of metal and half of living flesh."
+   }
+  },
+  "HFR00S00.DAT": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A white woman, one of the fairer half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Bob",
+    "101": "A standard black bob, worn by plenty of others - it suits any face and flatters just about everyone."
+   }
+  },
+  "HFR00S01.DAT": {
+   "appstyle.msg": {
+    "100": "Blonde Curls",
+    "101": "Your fair hair catches the sun out in the hot wastes. Some say blondes are stupid - you disagree."
+   }
+  },
+  "HFR00S02.DAT": {
+   "appstyle.msg": {
+    "100": "Red Ponytail",
+    "101": "Some say red hair means you have no soul. But when you look this good, who needs one?"
+   }
+  },
+  "HFR00S03.DAT": {
+   "appstyle.msg": {
+    "100": "Mohawk",
+    "101": "Your bright green mohawk says everything anyone needs to know about your temperament. Most people out here look down on you. You could not care less."
+   }
+  },
+  "HMR00S00.DAT": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A white man, one of the stronger half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Short Cut",
+    "101": "Plain short hair. Nothing about you stands out, and you have no patience for fashion or any of that nonsense."
+   }
+  },
+  "HMR00S01.DAT": {
+   "appstyle.msg": {
+    "100": "Long Hair",
+    "101": "You have magnificent long hair. Plenty out in the wastes would kill for a mane like that - the women especially."
+   }
+  },
+  "HMR00S02.DAT": {
+   "appstyle.msg": {
+    "100": "Shaved Bald",
+    "101": "Bald, you look hard enough that most of the wasteland gives you room. You draw fear and respect in equal measure."
+   }
+  },
+  "HMR01S00.DAT": {
+   "apprace.msg": {
+    "100": "Race",
+    "101": "A black man, one of the stronger half of surviving humanity."
+   },
+   "appstyle.msg": {
+    "100": "Dreadlocks",
+    "101": "Your long black hair looks like it has not seen water in months. Then again, it might just be the style."
+   }
+  },
+  "HMR01S01.DAT": {
+   "apprace.msg": {
+    "100": "Black",
+    "101": "You are an ordinary black guy."
+   },
+   "appstyle.msg": {
+    "100": "Bald",
+    "101": "Hair? Who needs it? You are a gleaming beacon of no-nonsense masculinity. Or maybe that is just the desert sun bouncing off your head. Either way, you are rocking the chrome dome and proud of it."
+   }
+  }
+ }
+}
