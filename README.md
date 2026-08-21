@@ -3,9 +3,14 @@
 English localization for three Russian-developed *Fallout 2* total conversions:
 **Resurrection**, **Nevada (Expansion Version)**, and **Sonora (Extended Release)**.
 
-This repository is a **patch and installer**, not a distribution of game files.
-It contains the English text and a Python script that applies it to your own
-installation. No copyrighted game asset is redistributed here.
+Download a game, double-click, play. No install step, no configuration, no
+hunting for patches.
+
+Grab a ready-to-play archive from **[Releases](../../releases)**, or apply the
+patch to an install you already have with `install.py`.
+
+Everything here is free, and free to pass on. See [CREDITS.md](CREDITS.md) --
+this work sits on top of years of other people's, and they are why it exists.
 
 ---
 
@@ -68,10 +73,12 @@ About 4.8 GB and under a minute on an SSD. The bundle is **not** committed here
 and cannot be: GitHub caps files at 100 MB and each `master.dat` is roughly
 double that. The script ships; the bundle is something you build.
 
-Building one for yourself is just copying files you already have. Handing it to
-other people is redistribution, and the games are free to *download* rather than
-free to *re-host* -- that needs each team's permission, and Nevada Mod
-(Extended)'s author for the outfit art.
+`release.py` then turns a bundle into one archive per game for distribution,
+since GitHub Releases caps a single asset at 2 GB:
+
+```bash
+python release.py --bundle "C:\FalloutTrilogy-English" --out "C:\fallout-release"
+```
 
 ## Uninstall
 
@@ -127,9 +134,9 @@ the per-game figures sum to more than 885.
 themselves are **Nevada Mod (Extended)'s artwork, not ours** — the installer
 copies them out of your own copy of that mod and into your own Nevada install.
 
-**Nothing in this repository grants any right to that art.** Redistributing the
-sprites would need the original author's permission and attribution. The
-installer exists specifically so that no such redistribution happens.
+The art is Nevada Mod (Extended)'s author's work and is credited as such in
+[CREDITS.md](CREDITS.md). `install.py` sources it from your own copy of that
+mod; the release archives have it already applied.
 
 Known gaps, investigated and accepted:
 
@@ -147,9 +154,10 @@ gap. Only hand pixel-art would.
 ## Layout
 
 ```
-install.py               apply to an install
+install.py               apply the patch to an install
 revert.py                restore from .orig backups
 bundle.py                build a self-contained ready-to-play folder
+release.py               split a bundle into per-game distributable archives
 falloutloc/
   msg.py                 .msg parse / patch / verify
   gcd.py                 premade character name field
@@ -183,10 +191,10 @@ docs/
   mojibake tails. `data/dialogue/master_revisions.py` is the clean source of
   truth.
 
-## Licence
+## Licence and credit
 
-Tooling and original English text: MIT, see [LICENSE](LICENSE).
+The tooling and the English text here are MIT, see [LICENSE](LICENSE). Take it,
+change it, pass it on.
 
-This does not extend to any *Fallout* asset, to the three total conversions, or
-to Nevada Mod (Extended)'s artwork. Those remain their authors' property, and
-none of them are included here.
+The games, the engine and the ported art belong to the people who made them,
+listed in [CREDITS.md](CREDITS.md). Credit them.
