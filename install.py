@@ -19,10 +19,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from falloutloc import games
 from falloutloc.manifest import Manifest
-from falloutloc.steps import dialogue, premade, appearance, outfit
+from falloutloc.steps import dialogue, premade, appearance, outfit, crossfill
 
 REPO = os.path.dirname(os.path.abspath(__file__))
-STEPS = ("dialogue", "premade", "appearance", "outfit")
+STEPS = ("dialogue", "crossfill", "premade", "appearance", "outfit")
 
 
 def main():
@@ -70,6 +70,10 @@ def main():
         if "dialogue" in steps:
             files, strings = dialogue.run(REPO, key, install, args.dry_run, record=record)
             print(f"  dialogue    {strings:4} strings across {files} files")
+
+        if "crossfill" in steps:
+            files, strings = crossfill.run(REPO, key, install, args.dry_run, record=record)
+            print(f"  crossfill   {strings:4} strings across {files} files")
 
         if "premade" in steps:
             bios, names = premade.run(REPO, key, install, args.dry_run, record=record)

@@ -40,6 +40,17 @@ def patch(raw, revisions):
     return out, applied, set(revisions) - applied
 
 
+def cyrillic_count(raw):
+    """How many strings in this .msg still read as Russian.
+
+    Text is stored in a single-byte codepage, so Cyrillic arrives as high
+    bytes rather than as Unicode. Counting raw bytes 0x80-0xFF inside the
+    text field catches it regardless of which codepage it was written in.
+    """
+    return sum(1 for m in ENTRY.finditer(raw)
+               if any(b >= 0x80 for b in m.group(3)))
+
+
 def verify(path, revisions):
     """Read back off disk and confirm each revision is really present.
 

@@ -75,13 +75,37 @@ def run(repo_root, game_key, install, dry_run=False, log=print, record=None):
         target_dir = os.path.join(out_dir, subdir) if subdir else out_dir
         target = os.path.join(target_dir, cased)
 
-        # Pick a clean base: a previous run's .orig, else the archive copy.
-        # Using .orig keeps re-runs idempotent instead of stacking edits.
+        # Pick a base by CONTENT, never by path.
+        #
+        # All three games ship their real English as loose files under
+        # data/text/english/. The archive entries sitting under an `english`
+        # path are frequently still Russian -- Nevada's BCPhill.msg is 319 of
+        # 361 strings Cyrillic in the archive and 0 of 361 in the loose file.
+        # Trusting the path is what shipped a Russian v1.0.
+        #
+        # Candidates in preference order; the first Cyrillic-free one wins.
         orig = target + ".orig"
+        candidates = []
         if os.path.exists(orig):
-            base = open(orig, "rb").read()
-        else:
-            base = dr.content(raw, entry)
+            candidates.append(("backup", open(orig, "rb").read()))
+        if os.path.exists(target):
+            candidates.append(("loose file", open(target, "rb").read()))
+        candidates.append(("archive", dr.content(raw, entry)))
+
+        base = best = None
+        for label, data in candidates:
+            score = msg.cyrillic_count(data)
+            if score == 0:
+                base = data
+                break
+            if best is None or score < best[0]:
+                best = (score, label, data)
+
+        if base is None:
+            score, label, data = best
+            log(f"  ! {filename}: no clean English source "
+                f"(best is {label}, {score} Cyrillic strings)")
+            base = data
 
         patched, applied, _ = msg.patch(base, revisions)
         if not applied:

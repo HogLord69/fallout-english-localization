@@ -36,7 +36,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from falloutloc import games
 from falloutloc.manifest import Manifest
-from falloutloc.steps import dialogue, premade, appearance, outfit
+from falloutloc.steps import dialogue, premade, appearance, outfit, crossfill
 
 REPO = os.path.dirname(os.path.abspath(__file__))
 
@@ -168,9 +168,12 @@ def main():
         print("  applying English patch")
         record = Manifest(dst)
         f, s = dialogue.run(REPO, key, dst, record=record)
+        cf, cs = crossfill.run(REPO, key, dst, record=record)
         b, n = premade.run(REPO, key, dst, record=record)
         a, ast = appearance.run(REPO, key, dst, record=record, log=lambda *_: None)
         print(f"    dialogue   {s} strings / {f} files")
+        if cs:
+            print(f"    crossfill  {cs} strings / {cf} files")
         print(f"    premade    {b} bios, {n} names")
         if a:
             print(f"    appearance {ast} strings / {a} archives")
