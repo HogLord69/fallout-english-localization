@@ -27,3 +27,7 @@ Thumbs.db
 
 # Installer bookkeeping left in a game folder, never in the repo
 .falloutloc-manifest.json
+
+# Built bundles - multi-GB, never committed
+/FalloutTrilogy-English/
+*-bundle/
