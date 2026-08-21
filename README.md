@@ -1,6 +1,6 @@
 # Fallout English Localization
 
-English localization for three  *Fallout 2* total conversions:
+English localization for three *Fallout 2* total conversions:
 **Resurrection**, **Nevada (Expansion Version)**, and **Sonora (Extended Release)**.
 
 Download a game, double-click, play. No install step, no configuration, no
