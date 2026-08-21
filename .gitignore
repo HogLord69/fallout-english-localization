@@ -31,3 +31,5 @@ Thumbs.db
 # Built bundles - multi-GB, never committed
 /FalloutTrilogy-English/
 *-bundle/
+
+/fallout-release/
