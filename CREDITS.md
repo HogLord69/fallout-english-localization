@@ -1,62 +1,75 @@
 # Credits
 
 This English edition is a thin layer on top of an enormous amount of other
-people's work. Everything below existed before this project did, and none of
-it was made for money.
+people's work. Everything below existed before this project did, and none of it
+was made for money.
 
-## The games
+## Fallout: Nevada and Fallout: Sonora
 
-**Fallout: Nevada** and **Fallout: Sonora** — created by **Nevada Band**, led
-by **Foxx**. Two full-length Fallout games, built and given away by a small
-Russian team over more than a decade. The scale of that is hard to overstate.
+Made by **Nevada Band**, a small Russian team who built and gave away two
+full-length Fallout games over more than a decade.
 
-**Fallout: Resurrection** — created by its Czech development team, a
-total conversion with its own story, world map and art.
+| | |
+|---|---|
+| **Alexander Poshelyuzhin** (*Black Designer*) | Creator and lead. The driving force behind both Nevada and Sonora. |
+| **Alexander Berezin** (*Red888*) | Artist. Joined for Sonora and reworked its visual identity. |
+| **Alexey Trofimov** (*Nobody's Nail Machine*) | Composer, for both games. |
+| **Foxx** | Installer, HRP adaptation, sfall integration. |
 
-*(Team roster and individual credits: see "Still to confirm" below. If you are
-one of these people and this page gets your name or your team wrong, that is my
-error, and I would rather be told than left uncorrected.)*
+## Fallout: Resurrection
 
-## The engine work
+Made by a four-person Czech team over roughly ten years:
 
-**sfall** — the Fallout 2 engine extender that all three of these run on,
-originally by **Timeslip** and maintained since by others in the community.
-Without it none of these games would run on a modern machine.
+**Václav Panoš**, **Marek Štípek**, **Milan Ratičák**, and **Marián Lóži**.
 
-**Fallout 2** — Black Isle Studios / Interplay. Twenty-five years on, its
-engine is still being used to make new games. That is the whole reason this
-scene exists.
+Official site: [resurrection.cz](https://www.resurrection.cz/en/)
+
+## sfall
+
+The Fallout 2 engine extender all three of these run on. Without it none of
+them would start on a modern machine.
+
+- **Timeslip** — original author, 2005–2008
+- **NovaRain** — stepped in and kept it alive
+- **phobos2077** — current maintainer, [github.com/phobos2077/sfall](https://github.com/phobos2077/sfall)
+- **Crafty** — picked up the Fallout 1 branch
+- and the many contributors across the community-maintained years
+
+## Fallout 2
+
+**Black Isle Studios** and **Interplay**. Twenty-five years on, people are still
+building new games on their engine. That is the reason this whole scene exists.
 
 ## The outfit port
 
-The dark-grey skull jumpsuit sprites come from **Nevada Mod (Extended)**. That
-art is its author's work, not mine, and it is included here with the community's
-customary blessing rather than as anything I created.
+The dark-grey skull jumpsuit sprites are from **Nevada Mod (Extended)**. That
+art is its author's work, not mine.
+
+*I have not been able to confirm the author's handle. Tell me and it goes here.*
 
 ## The community
 
-**No Mutants Allowed (NMA)** and the wider Fallout modding community, who host,
-translate, test and keep these games findable. For a scene this small, the
-people who maintain the archive matter as much as the people who fill it.
+**No Mutants Allowed (NMA)** and the wider Fallout modding community — who
+host, translate, test, argue, and keep these games findable decades on. In a
+scene this small, the people maintaining the archive matter as much as the
+people filling it.
+
+**And countless others.** Translators, testers, bug reporters, forum posters
+who answered a question once in 2011 and made someone's build work. Most of
+this work is uncredited by nature. It still got done, and people still play
+these games because of it.
 
 ## This English edition
 
 Dialogue revisions, premade character biographies, character-sheet translation,
 and the installer and bundling tooling.
 
-Released free, with no restriction on passing it on. If you improve it, improve
-it — the same way it was handed to you.
+Free, and free to pass on. If you improve it, improve it — the same way it was
+handed to you.
 
 ---
 
-## Still to confirm
-
-I did not want to guess at names and get them wrong. These need filling in:
-
-- Fallout: Resurrection — the development team's name and lead credits
-- Nevada Band — individual member credits beyond Foxx
-- Nevada Mod (Extended) — the author's handle
-- Any prior English translation work these revisions build on
-- The correct current sfall maintainers
-
-Corrections and additions are welcome and will be applied verbatim.
+**Corrections wanted.** The names above were assembled from public sources, not
+from the people themselves. If yours is missing, misspelled, or credited to the
+wrong role, say so and it will be fixed verbatim — that matters more here than
+anything else on this page.
