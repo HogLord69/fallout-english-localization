@@ -46,6 +46,33 @@ If your installs are somewhere other than `C:\`, pass `--path`:
 python install.py --game sonora --path "D:\Games\Fallout Sonora"
 ```
 
+## Build a ready-to-play folder
+
+`bundle.py` assembles your own installs into a single self-contained folder --
+games copied in, patch already applied, one launcher per game:
+
+```bash
+python bundle.py --out "C:\FalloutTrilogy-English"
+```
+
+```
+FalloutTrilogy-English/
+  START HERE.txt
+  Play Resurrection.bat
+  Play Nevada.bat
+  Play Sonora.bat
+  games/
+```
+
+About 4.8 GB and under a minute on an SSD. The bundle is **not** committed here
+and cannot be: GitHub caps files at 100 MB and each `master.dat` is roughly
+double that. The script ships; the bundle is something you build.
+
+Building one for yourself is just copying files you already have. Handing it to
+other people is redistribution, and the games are free to *download* rather than
+free to *re-host* -- that needs each team's permission, and Nevada Mod
+(Extended)'s author for the outfit art.
+
 ## Uninstall
 
 The installer records every path it touched in `.falloutloc-manifest.json` in
@@ -122,6 +149,7 @@ gap. Only hand pixel-art would.
 ```
 install.py               apply to an install
 revert.py                restore from .orig backups
+bundle.py                build a self-contained ready-to-play folder
 falloutloc/
   msg.py                 .msg parse / patch / verify
   gcd.py                 premade character name field
