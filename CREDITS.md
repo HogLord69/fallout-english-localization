@@ -41,13 +41,6 @@ them would start on a modern machine.
 **Black Isle Studios** and **Interplay**. Twenty-five years on, people are still
 building new games on their engine. That is the reason this whole scene exists.
 
-## The outfit port
-
-The dark-grey skull jumpsuit sprites are from **Nevada Mod (Extended)**. That
-art is its author's work, not mine.
-
-*I have not been able to confirm the author's handle. Tell me and it goes here.*
-
 ## The community
 
 **No Mutants Allowed (NMA)** and the wider Fallout modding community — who
