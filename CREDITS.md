@@ -24,11 +24,12 @@ Made by a four-person Czech team over roughly ten years:
 
 Official site: [resurrection.cz](https://www.resurrection.cz/en/)
 
-## sfall
+## sfall5
 
 The Fallout 2 engine extender all three of these run on. Without it none of
 them would start on a modern machine.
 
+- **Mr. Stalin** — 
 - **Timeslip** — original author, 2005–2008
 - **NovaRain** — stepped in and kept it alive
 - **phobos2077** — current maintainer, [github.com/phobos2077/sfall](https://github.com/phobos2077/sfall)
